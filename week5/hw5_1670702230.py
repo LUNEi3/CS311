@@ -89,5 +89,4 @@ shoes = [shoe1, shoe2, shoe3, shoe4]
 
 top,left,right,bottom = layouts()
 shoeSpy,shirtSpy,lbt,rbt = widget()
-print(type(master))
 master.mainloop()
