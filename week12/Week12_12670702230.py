@@ -176,6 +176,7 @@ def updateclick() :
     sql = "UPDATE login SET pwd=?, fname=?, lname=? WHERE user=?"
     cursor.execute(sql, [pwdbox.get(), fnamebox.get(), lnamebox.get(), userbox.get()])
     messagebox.showinfo("Admin", "Update completed")
+    conn.commit()
 
 
     #clear old data after update acton
