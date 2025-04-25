@@ -90,6 +90,12 @@ def addClick():
     addFrame.grid(row=1, column=1, sticky="news")
     Label(addFrame, bg="#94B4C1", fg="black", text="Add Course", font="Garamond 26 bold").grid(row=0, column=0, columnspan=2)
     Label(addFrame, bg="#94B4C1", fg="black", text="Course Code: ").grid(row=1, column=0, sticky="e")
+    codeEntry = Entry(addFrame, bg="white", fg="black")
+    codeEntry.grid(row=1, column=1)
+    Label(addFrame, bg="#94B4C1", fg="black", text="Course Name: ").grid(row=2, column=0, sticky="e")
+    nameEntry = Entry(addFrame, bg="white", fg="black")
+    nameEntry.grid(row=2, column=1)
+    Button(addFrame, bg="white", fg="black", text="Add", width=10).grid(row=3, column=0, columnspan=2)
 
 
 def updateClick():
