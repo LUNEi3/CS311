@@ -42,7 +42,7 @@ def loginPage():
 
 def loginClick():
     global result
-    result = [1670702230, "Pariwat", "Niranon", "pariwat.nira", "pariwat123"]
+    result = [1670700001, "Paulo", "Marrow", "paulo.marr", "paulo777"]
     welcomePage(result)
     # if userEntry.get() == "" or pwdEntry.get() == "":
     #     messagebox.showerror("Admin", "Please enter Username or Password")
